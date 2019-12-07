@@ -1,0 +1,9 @@
+/* your css code */
+.authorName {
+  padding-bottom: 10px;
+}
+
+.reviewsWrapper {
+  margin-bottom: 25px;
+  border-bottom: 1px solid #000;
+}
