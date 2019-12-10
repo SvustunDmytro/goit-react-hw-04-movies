@@ -7,6 +7,7 @@ const SearchForm = ({ onChange, queryMovies }) => (
   <div className="SearchFormWrapper" onSubmit={onChange}>
     <form className={styles.search__form}>
       <input type="text" autoComplete="off" placeholder="Search movies..." />
+      <button type="submit">Search</button>
     </form>
     <div>
       <ul>
